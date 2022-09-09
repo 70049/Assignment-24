@@ -1,0 +1,80 @@
+Q1.   Write a python program to create a user class with 3 properties: name,age,Gmail.
+Ans.   class user:
+           name="Rajeev"
+           age=22
+           gmail="rk488296@gmail.com"
+       u1=user()
+       print(u1.name,type(u1.name),u1.age,type(u1.age),u1.gmail,type(u1.age),sep="\n")
+       
+Q2.   Write a python program to create a user class with a method to greet the user.
+Ans.   class user:
+             def __init__(self):
+                   self.name=input("Enter Your Name: ")
+                   self.age=int(input("Enter Your age: "))
+              def show(self):
+                   print(self.name,self.age)
+       u1=user()
+       u1.show()
+       
+Q3.   Write a python program to create 2 object of the user class and assign different values.
+Ans.   class user:
+            def show(user):
+                name=input("Enter Name: ")
+                age=int(input("Enter Age: "))
+                print(name,age)
+       u1=user()
+       u2=user()
+       u1.show()
+       u2.show()
+       
+Q4.   Write a python program to init default value for user object using __init__ method.
+Ans.   class computer:
+               def __init__(self):
+                     self.verson=input("Enter Your Computer Version: ")
+                     self.ram=int(input("Enter RAM Available in Your PC: "))
+                def showdata(self):
+                      print(self.version,self.ram)
+         c1=computer()
+         c1.showdata()
+         
+Q5.   Write a python program to delete the age properties of the user.
+Ans.   class user:
+            name=input("Enter Your Name: ")
+            age=int(input("Enter Your Age: "))
+            print(name,age)
+            del age
+            print(name)
+       u1=user()
+       
+Q6.   Write a python program to create 3 user objects and find the Youngest to all.
+Ans.   class user:
+            def __init__(self):
+                  self.m1=int(input("Enter 1st Student Marks: "))
+                  self.m2=int(input("Enter 2nd Student Marks: "))
+                  self.m3=int(input("Enter 3rd Student Marks: "))
+            def show(self):
+                  if self.m1>self.m2 and self.m3:
+                       print("S1")
+                  elif self.m2>self.m1 and self.m3:
+                       print("S2")
+                  else:
+                       print("S3")
+         u1=user()
+         u1.show()
+            
+       
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
