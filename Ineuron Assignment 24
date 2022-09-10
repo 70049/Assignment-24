@@ -113,7 +113,7 @@ Ans.   class School:
          print(s2.course)
          
          
-Q10.  Define a class Employee with instance object variable empid,name,salary.Write __Init__()method in the class to initilize instance object vcacriable.
+Q10.  Define a class Employee with instance object variable empid,name,salary.Write __Init__()method in the class to initilize instance object variable.
           Also Define instance method to input field and dispaly field values.
 Ans.   class Employee:
               def __init__(self):
