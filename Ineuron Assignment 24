@@ -97,25 +97,34 @@ Ans.    class Laptop:
         p2.Show()
         P3.show()
         
+Q9.   Write a python program to create a school class and 3 instance variable and 1 class variable.
+Ans.   class School:
+             course=input("Enter Course: ")    #Class Variable
+             def __init__(self):
+                    self.name=input("Enter Your Name: ")
+                    self.id=input("Enter Your Id: ")
+              def show(self):
+                    print("Name:- ",self.name,"ID:- ",self.id,end="\n")
+         s1=School()
+         s2=School()
+         s1.show()
+         s2.show()
+         print(s1.course)
+         print(s2.course)
+         
+         
+Q10.  Define a class Employee with instance object variable empid,name,salary.Write __Init__()method in the class to initilize instance object vcacriable.
+          Also Define instance method to input field and dispaly field values.
+Ans.   class Employee:
+              def __init__(self):
+                   self.empid=input("Enter Your Emp. Id: ")
+                   self.name=input("Enter Your Name: ")
+                   self.salary=eval(input("Enter Your Salary: "))
+               def showdata(self):
+                   print("Id:- ",self.empid,"Name:- ",self.name,"Salary:- ",self.salary,end="\n")
+       E1=Employee()
+       E2=Employee()
+       E1.showdata()
+       E2.showdata()
         
         
-        
-        
-        
-        
-       
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
