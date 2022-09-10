@@ -61,7 +61,48 @@ Ans.   class user:
                        print("S3")
          u1=user()
          u1.show()
-            
+         
+Q7.   Write a python program to create a Laptop class with 4 attributes(brand,ram,cpu,hdd) and 2 methods(showconfig() to print the value,
+           __init__()to initillize the values.) 
+Ans.   class Laptop:
+            def __init__(self):
+                self.brand=input("Enter Your Device Brand: ")
+                self.ram=int(input("Enter Your Device RAM: "))
+                self.cpu=eval(input("Enter Your Device CPU: "))
+                self.hdd=eval(input("Enter Your Device HDD: "))
+             def showconfig(self):
+                print("Brand:- ",self.brand,"RAM:- ",self.ram,"CPU:- ",self.cpu,"HDD:- ",self.hdd,end="\n")
+        L1=Laptop()
+        l2=Laptop()
+        l1.showconfig()
+        l2.showconfig()
+        
+Q8.   Write 7th Question,Create 3 Laptop object and add them to the list in the sorted order based on the RAM size.
+Ans.    class Laptop:
+           def __init__(self):
+                self.brand=input("Enter Your Device Brand: ")
+                self.ram=int(input("Enter Your Device RAM: "))
+                self.cpu=eval(input("Enter Your Device CPU: "))
+                self.hdd=eval(input("Enter Your Device HDD: "))
+           def show(self):
+                print(self.brand,self.ram,self.cpu,self.hdd,end="\n")
+                sorted(self.ram)
+                L1=[]
+                L1.append(self.ram)
+                print(L1)
+        P1=Laptop()
+        P2=Laptop()
+        P3=Laptop()
+        P1.show()
+        p2.Show()
+        P3.show()
+        
+        
+        
+        
+        
+        
+        
        
          
          
